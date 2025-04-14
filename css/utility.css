@@ -1,0 +1,31 @@
+/*CLASSES PRÉ-DEFINIDAS*/
+
+.contanaier{
+    display: flex;
+}
+
+.exlarg-text{
+    font: var(--tamanho-exlarg);
+    color: var(--text-padrão);
+}
+.larg-text{
+    font: var(--tamanho-larg);
+    color: var(--text-padrão);
+}
+
+.medio-text{
+    font: var(--tamanho-medio);
+    color: var(--text-padrão);
+}
+
+.litle-text{
+    font: var(--tamanho-litle);
+}
+
+.zoom {
+    transition: transform 0.5s ease;
+}
+
+.zoom:hover {
+    transform: scale(1.05); 
+}

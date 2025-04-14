@@ -1,0 +1,34 @@
+/*CONFIGURAÇÕES GERAIS*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+  }
+  
+body{
+    background: #00030c;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+:root{ 
+    /* Fontes */ 
+    --fonte: 'Poppins', sans-seraf;
+    --tamanho-exlarg: 700 38px/1.3 var(--fonte);
+    --tamanho-larg: 700 28px/1.3 var(--fonte);
+    --tamanho-medio: 400 14px/1.4 var(--fonte);
+    --tamanho-litle: 300 12px/1.4 var(--fonte);
+
+    /*Cores */
+    --text-padrão: #FFFFFF;
+    --text-secundaria: #F9F9F9;
+    --text-semisecudaria: #C0C0C0;
+    --azul-color: #167BF7;
+    --red-color: #Ff0000;
+}

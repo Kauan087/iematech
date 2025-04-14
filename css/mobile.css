@@ -1,0 +1,47 @@
+@media screen and (max-width: 720px){
+
+    #inicio, #sobre, #projeto{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    header{    
+        .btn-abrir-menu{
+            padding-left: 140px;
+            display: block;
+        }
+    }
+
+    .links{
+        display: none;
+    }
+    .central{
+        flex-direction: column-reverse;
+    }
+
+    .central .exlarg-text, h1{
+        width: 350px;
+        text-align: center;
+     
+       
+    }
+
+    .central img{
+        width: 400px;
+        height: 400px;
+    }
+
+
+    .projeto{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu a{
+        text-decoration: none;
+        color: var(--text-secundaria);
+    }
+  
+}
+
