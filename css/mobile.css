@@ -32,6 +32,18 @@
         height: 400px;
     }
 
+    .caixa{
+        flex-direction: column;
+        align-items: center;
+      
+    }
+
+    .borda{
+        width: 100%;
+        height: 1px;
+        border: 1px solid #ffff;
+    }
+
 
     .projeto{
         flex-direction: column;
