@@ -1,4 +1,5 @@
 /*Estilizando header */
+
 header{
     width: 100%;
     h1{
@@ -256,6 +257,7 @@ main h1{
    height: auto;
    text-align: center;
    align-items: center;
+   box-sizing: border-box;
 }
 .img-port{
     width: 360px;

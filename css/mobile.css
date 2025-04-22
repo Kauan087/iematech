@@ -1,6 +1,12 @@
 @media screen and (max-width: 720px){
 
+        
+    html, body{
+        overflow-x: hidden;
+    }
+
     #inicio, #sobre, #projeto{
+      
         align-items: center;
         justify-content: center;
         flex-direction: column;
@@ -32,11 +38,38 @@
         height: 400px;
     }
 
-    .caixa{
+    .overley{
+        border-radius: 20px;
+    }
+
+    .caixa {
+        display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
+        width: 100%;
+        box-sizing: border-box;
+        gap: 20px;
+        padding: 20px;
+      }
       
-    }
+      .img-port {
+        width: 90%;
+        max-width: 400px;
+        height: 340px;
+        background-size: cover;
+        background-position: center;
+        border-radius: 20px;
+        background-position: 100% 0%;
+        position: relative;
+      }
+      
+      .caixa p {
+        width: 90%;
+        max-width: 500px;
+        text-align: center;
+      }
+      
 
     .borda{
         width: 100%;
