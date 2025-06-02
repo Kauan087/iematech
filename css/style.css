@@ -19,6 +19,9 @@ header{
         display: flex;
         align-items: center;
         padding-left: 70px;
+        justify-content: space-between;
+        padding: 10px 5%;
+        position: relative;
 
 
         img{
@@ -27,8 +30,11 @@ header{
         }
    
         .links{
-           padding-left: 360px;
-           gap: 60px;
+            display: flex;
+            gap: 40px;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
            a{
             padding-left: 20px;
            }
@@ -116,16 +122,15 @@ header{
 }
 
 /*Estilizando main*/
-main{
+main {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    gap: 60px;
+    justify-content: center; 
+    gap: 200px; /* Espaço entre os cards */
     padding: 30px;
-    align-items: flex-start;
     padding-top: 70px;
     padding-bottom: 100px;
-
+    align-items: flex-start;
 }
 
 main h1{
@@ -317,13 +322,21 @@ section .projeto-container{
     display: flex;
     gap: 150px;
 }
+.caixa2{
+    margin-left: auto;
+    left: 1;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 150px;
+}
 
-.caixa p{
+.caixa .caixa2 p{
     width: 450px;
     text-align: center;
     color: var(--text-semisecudaria);
 }
-.caixa h3{
+.caixa .caixa2 h3{
     text-align: center;
 }
 
